@@ -1,0 +1,102 @@
+/* color pallet
+     orange: #F2583E
+     bright blue: #77BED2
+     light blue: #D5E1DD
+     charcoal: #2B3E42
+     grey: #747E80
+     cream: #F7F3E8
+    */
+
+html {
+    scroll-behavior: smooth;
+}
+
+#mainNav {
+    background-color: #F2583E;
+}
+
+#home {
+    min-height: 100vh;
+}
+
+#page1 {
+    width: 100%;
+}
+
+#imgDiv {
+    position: relative;
+}
+
+#profile {
+    display: block;
+    width: 100%;
+    height: 70vh;
+}
+
+
+#title {
+    width: 100%;
+    min-height: 30vh;
+    background-color: #77BED2;
+}
+
+ /* Arrow & Hover Animation */
+ #more-arrows {
+    width: 75px;
+    height: 65px;
+}
+#more-arrows:hover polygon {
+fill: #F7F3E8;
+transition: all .4s ease-out;
+}
+#more-arrows:hover polygon.arrow-bottom {
+-webkit-transform: translateY(-18px);
+        transform: translateY(-18px);
+}
+#more-arrows:hover polygon.arrow-top {
+-webkit-transform: translateY(18px);
+        transform: translateY(18px);
+}
+  
+polygon {
+fill: #F7F3E8;
+transition: all .2s ease-out;
+}
+polygon.arrow-middle {
+opacity: 0.75;
+}
+polygon.arrow-top {
+opacity: 0.5;
+}
+
+#h2ViewWork {
+    color: #F7F3E8;
+}
+
+#bio {
+    color: #F7F3E8;
+    padding-top: 5vh;
+    min-height: 15vh;
+}
+
+
+#about,
+#portfolio {
+    min-height: 100vh;
+    background-color: #F7F3E8;
+}
+
+.icon {
+    font-size: 30pt;
+    color: #2B3E42;
+}
+
+a { 
+    text-decoration: none;
+}
+
+
+.navbar-brand,
+.nav-link {
+    color: #F7F3E8;
+}
