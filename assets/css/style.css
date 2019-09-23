@@ -11,6 +11,15 @@ html {
     scroll-behavior: smooth;
 }
 
+a { 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #77BED2;
+}
+
 #mainNav {
     background-color: #F2583E;
 }
@@ -29,7 +38,7 @@ html {
 
 #profile {
     display: block;
-    width: 100%;
+    width: auto;
     height: 70vh;
 }
 
@@ -41,7 +50,8 @@ html {
 }
 
  /* Arrow & Hover Animation */
- #more-arrows {
+#more-arrows {
+    text-decoration: none;
     width: 75px;
     height: 65px;
 }
@@ -70,7 +80,7 @@ opacity: 0.5;
 }
 
 #h2ViewWork {
-    color: #F7F3E8;
+    color: #F7F3E8; 
 }
 
 #bio {
@@ -83,7 +93,12 @@ opacity: 0.5;
 #about,
 #portfolio {
     min-height: 100vh;
-    background-color: #F7F3E8;
+    background-color: #77BED2;
+    color: #2B3E42;
+}
+
+.card {
+    background-color: #747E80;
 }
 
 .icon {
@@ -91,9 +106,7 @@ opacity: 0.5;
     color: #2B3E42;
 }
 
-a { 
-    text-decoration: none;
-}
+
 
 
 .navbar-brand,
