@@ -41,9 +41,9 @@
 
     <!-- Home Page -->
     <section id="home" class="flex-container">
-        <div id="imgDiv">
+        <div class="container" id="imgDiv">
             <!-- Use a different sized picture for Mobile -->
-            <img src="assets/images/testPic2.jpg" alt="Profile Image" id="profile">
+            <img src="assets/images/IMG_0714.jpg" alt="Profile Image" id="profile">
         </div>
         <div id="title">
             <div id="bio" class="col-md-12 col-xs-12 text-center">
@@ -52,8 +52,8 @@
             <div class="text-center">
                 <a href="#portfolio">
                     <div id="arrowDiv" class="content">
-                        <h2 id="h2ViewWork">Portfolio</h2>
-                        <svg id="more-arrows">
+                        <h2 class="h2ViewWork">Portfolio</h2>
+                        <svg class="more-arrows">
                             <polygon class="arrow-top" points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 "/>
                             <polygon class="arrow-middle" points="37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7 "/>
                             <polygon class="arrow-bottom" points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1 "/>
@@ -67,33 +67,57 @@
 
     <!-- Portfolio -->
     <section id="portfolio">
-        <div class="container">
-            <h2>Portfolio</h2>
-            <div class="card col-md-10">
+        <div class="spacer"></div>
+        <div class="flex-container text-center">
+            <h1>Portfolio</h1>
+            <div class="card col-md-12">
                 <div class="card-header">
-                    Train Schedule
+                    <h2>Train Schedule</h2>
                 </div>
-                <div class="card-body row">
+                <div class="card-body row text-left">
                     <div class="col-md-6 col-xs-12">
-                        <!-- image -->
+                        <img id="trains" src="assets/images/train.jpg" alt="NYC Subway Map">
                     </div>
                     <div class="col-md-6 col-xs-12">
-                        <!-- about / links to site and github -->
-                        <p>About this project</p>
-                        <button><a href="https://tardyparty.github.io/trainTime/" target="_blank">Website</a></button>
-                        <button><a href="https://github.com/tardyparty/trainTime" target="_blank">View Code</a></button>
+                        <h3>Skills</h3>
+                        <div>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                                <li>JavaScript</li>
+                                <li>Moment.js</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <button><a href="https://tardyparty.github.io/trainTime/" target="_blank">Website</a></button>
+                            <button><a href="https://github.com/tardyparty/trainTime" target="_blank">Code</a></button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>    
+        </div>  
+        <div class="text-center">
+            <a href="#about">
+                <div id="arrowDiv" class="content">
+                    <h2 class="h2ViewWork">About Me</h2>
+                    <svg class="more-arrows">
+                        <polygon class="arrow-top" points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 "/>
+                        <polygon class="arrow-middle" points="37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7 "/>
+                        <polygon class="arrow-bottom" points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1 "/>
+                    </svg>
+                </div>
+            </a>
+        </div>  
     </section>
 
     <!-- About Me -->
     <section id="about">
+        <div class="spacer"></div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2>About this page</h2>
+                    <h2>About Me</h2>
                     <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
                     <ul>
                         <li>Clickable nav links that smooth scroll to page sections</li>
@@ -104,6 +128,35 @@
                 </div>
             </div>
         </div>
+        <div class="text-center">
+            <a href="#contact">
+                <div id="arrowDiv" class="content">
+                    <h2 class="h2ViewWork">Contact</h2>
+                    <svg class="more-arrows">
+                        <polygon class="arrow-top" points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 "/>
+                        <polygon class="arrow-middle" points="37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7 "/>
+                        <polygon class="arrow-bottom" points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1 "/>
+                    </svg>
+                </div>
+            </a>
+        </div>
     </section>
+    <section id="contact">
+            <div class="spacer"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2>Contact</h2>
+                        <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
+                        <ul>
+                            <li>Clickable nav links that smooth scroll to page sections</li>
+                            <li>Responsive behavior when clicking nav links perfect for a one page website</li>
+                            <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
+                            <li>Minimal custom CSS so you are free to explore your own unique design options</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 </body>
 </html>

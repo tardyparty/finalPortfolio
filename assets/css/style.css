@@ -11,6 +11,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #77BED2;
+}
+
 a { 
     text-decoration: none;
 }
@@ -37,6 +41,7 @@ a:hover {
 }
 
 #profile {
+    position: relative;
     display: block;
     width: auto;
     height: 70vh;
@@ -50,20 +55,20 @@ a:hover {
 }
 
  /* Arrow & Hover Animation */
-#more-arrows {
+.more-arrows {
     text-decoration: none;
     width: 75px;
     height: 65px;
 }
-#more-arrows:hover polygon {
+.more-arrows:hover polygon {
 fill: #F7F3E8;
 transition: all .4s ease-out;
 }
-#more-arrows:hover polygon.arrow-bottom {
+.more-arrows:hover polygon.arrow-bottom {
 -webkit-transform: translateY(-18px);
         transform: translateY(-18px);
 }
-#more-arrows:hover polygon.arrow-top {
+.more-arrows:hover polygon.arrow-top {
 -webkit-transform: translateY(18px);
         transform: translateY(18px);
 }
@@ -79,7 +84,7 @@ polygon.arrow-top {
 opacity: 0.5;
 }
 
-#h2ViewWork {
+.h2ViewWork {
     color: #F7F3E8; 
 }
 
@@ -89,16 +94,43 @@ opacity: 0.5;
     min-height: 15vh;
 }
 
+.spacer {
+    height: 60px;
+}
 
+#contact,
 #about,
 #portfolio {
+    /* margin-top: 60px; */
     min-height: 100vh;
     background-color: #77BED2;
     color: #2B3E42;
 }
 
 .card {
-    background-color: #747E80;
+    border: none;
+}
+
+.card-body {
+    background-color: #77BED2;
+}
+
+.card-header {
+    font-size: 20pt;
+    color: #F2583E;
+    background-color: #F7F3E8
+}
+
+#trains {
+    width: 100%;
+}
+
+#hangman {
+    width: 70%;
+}
+
+.skillIcons {
+    display: inline-block;
 }
 
 .icon {
