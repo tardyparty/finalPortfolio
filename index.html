@@ -14,7 +14,7 @@
 <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <!-- <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
         <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#home">David Tardy</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,22 +37,23 @@
             </ul>
         </div>
         </div>
-    </nav>
+    </nav> -->
 
     <!-- Home Page -->
     <section id="home" class="flex-container">
-        <div class="container" id="imgDiv">
-            <!-- Use a different sized picture for Mobile -->
+        <!-- <div class="container" id="imgDiv">
+            Use a different sized picture for Mobile
             <img src="assets/images/IMG_0714.jpg" alt="Profile Image" id="profile">
-        </div>
+        </div> -->
         <div id="title">
             <div id="bio" class="col-md-12 col-xs-12 text-center">
-                <h2>Software Engineer focused on developing new skills in challenging environments.</h2>
+                <h1 id="name">David Tardy</h1>
+                <h2 id="bioContent">Software Engineer focused on developing new skills in challenging environments.</h2>
             </div>
             <div class="text-center">
                 <a href="#portfolio">
                     <div id="arrowDiv" class="content">
-                        <h2 class="h2ViewWork">Portfolio</h2>
+                        <!-- <h2 class="h2ViewWork">Portfolio</h2> -->
                         <svg class="more-arrows">
                             <polygon class="arrow-top" points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 "/>
                             <polygon class="arrow-middle" points="37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7 "/>
@@ -61,46 +62,29 @@
                     </div>
                 </a>
             </div>
-            
         </div>
     </section>
 
     <!-- Portfolio -->
     <section id="portfolio">
         <div class="spacer"></div>
-        <div class="flex-container text-center">
-            <h1>Portfolio</h1>
-            <div class="card col-md-12">
-                <div class="card-header">
-                    <h2>Train Schedule</h2>
-                </div>
-                <div class="card-body row text-left">
-                    <div class="col-md-6 col-xs-12">
-                        <img id="trains" src="assets/images/train.jpg" alt="NYC Subway Map">
-                    </div>
-                    <div class="col-md-6 col-xs-12">
-                        <h3>Skills</h3>
-                        <div>
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>Bootstrap</li>
-                                <li>JavaScript</li>
-                                <li>Moment.js</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <button><a href="https://tardyparty.github.io/trainTime/" target="_blank">Website</a></button>
-                            <button><a href="https://github.com/tardyparty/trainTime" target="_blank">Code</a></button>
-                        </div>
-                    </div>
+        <div class="text-center">
+            <h1 class="pageTitle">Portfolio</h1>
+        </div>
+        <div class="flex-container">
+            <div class="card col-md-3">
+                <img class="card-img-top" src="assets/images/train.jpg" alt="MTA Map">
+                <div class="card-body">
+                    <h5 class="card-title">Train Schedule</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <button><a href="https://tardyparty.github.io/trainTime/" target="_blank">Website</a></button>
+                    <button><a href="https://github.com/tardyparty/trainTime" target="_blank">Gihub</a></button>
                 </div>
             </div>
         </div>  
         <div class="text-center">
             <a href="#about">
                 <div id="arrowDiv" class="content">
-                    <h2 class="h2ViewWork">About Me</h2>
                     <svg class="more-arrows">
                         <polygon class="arrow-top" points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 "/>
                         <polygon class="arrow-middle" points="37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7 "/>
@@ -111,9 +95,12 @@
         </div>  
     </section>
 
-    <!-- About Me -->
+    <!-- About Me Page -->
     <section id="about">
         <div class="spacer"></div>
+        <div class="text-center">
+            <h1 class="pageTitle">About Me</h1>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
@@ -131,7 +118,6 @@
         <div class="text-center">
             <a href="#contact">
                 <div id="arrowDiv" class="content">
-                    <h2 class="h2ViewWork">Contact</h2>
                     <svg class="more-arrows">
                         <polygon class="arrow-top" points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 "/>
                         <polygon class="arrow-middle" points="37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7 "/>
@@ -141,8 +127,13 @@
             </a>
         </div>
     </section>
+
+    <!-- Contact Page -->
     <section id="contact">
             <div class="spacer"></div>
+            <div class="text-center">
+                <h1 class="pageTitle">Connect</h1>
+            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">

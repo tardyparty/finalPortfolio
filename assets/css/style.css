@@ -49,8 +49,9 @@ a:hover {
 
 
 #title {
+    position: relative;
     width: 100%;
-    min-height: 30vh;
+    min-height: 100vh;
     background-color: #77BED2;
 }
 
@@ -85,17 +86,31 @@ opacity: 0.5;
 }
 
 .h2ViewWork {
+    font-size: 20pt;
     color: #F7F3E8; 
 }
 
 #bio {
     color: #F7F3E8;
-    padding-top: 5vh;
-    min-height: 15vh;
+    padding-top: 40vh;
+    min-height: 90vh;
+}
+
+
+#name {
+    text-shadow: #F7F3E8 2px 2px;
+    font-size: 60pt;
+    color: #F2583E;
 }
 
 .spacer {
-    height: 60px;
+    height: 5vh;
+}
+
+.pageTitle {
+    font-size: 40pt;
+    color: #F2583E;
+    text-shadow: #F7F3E8 1px 1px;
 }
 
 #contact,
@@ -118,7 +133,8 @@ opacity: 0.5;
 .card-header {
     font-size: 20pt;
     color: #F2583E;
-    background-color: #F7F3E8
+    background-color: #77BED2;
+    border: none;
 }
 
 #trains {
