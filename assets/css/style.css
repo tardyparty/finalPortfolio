@@ -113,6 +113,7 @@ opacity: 0.5;
     text-shadow: #F7F3E8 2px 2px;
 }
 
+
 #contact,
 #about,
 #portfolio {
@@ -127,7 +128,7 @@ opacity: 0.5;
 }
 
 #aboutPage {
-    height: 75vh;
+    min-height: 80vh;
 }
 
 #spacerPortfolio {
@@ -179,4 +180,21 @@ opacity: 0.5;
     width: 50%;
     border: 3px solid #F2583E;
     border-radius: 12px;
+}
+
+#connect {
+    display: inline-block;
+}
+
+#connectSpacer {
+    min-height: 25vh;
+}
+
+.largeBtn {
+    margin: 12px;
+    font-size: 30pt;
+}
+
+#contactinfo {
+    font-size: 30pt;
 }
