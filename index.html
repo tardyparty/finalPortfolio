@@ -71,14 +71,51 @@
         <div class="text-center">
             <h1 class="pageTitle">Portfolio</h1>
         </div>
-        <div id="pageContent" class="flex-container">
-            <div class="card col-md-3">
-                <img class="card-img-top" src="assets/images/train.jpg" alt="MTA Map">
-                <div class="card-body">
-                    <h5 class="card-title">Train Schedule</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <button><a href="https://tardyparty.github.io/trainTime/" target="_blank">Website</a></button>
-                    <button><a href="https://github.com/tardyparty/trainTime" target="_blank">Gihub</a></button>
+        <div id="spacerPortfolio"></div>
+        <div id="pageContent" class="row">
+
+            <!-- Train Schedule -->
+            <div class="col-md-4 col-xs-12">
+                <div class="card">
+                    <img class="card-img-top" src="assets/images/nightmap.jpg" alt="MTA Map">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Train Schedule</h5>
+                        <p class="card-text">An exploration in using FireBase, Bootstrap and Moment.js to schedule Train times.</p>
+                        <div class="text-center">
+                            <button class="cardBtn"><a href="https://tardyparty.github.io/trainTime/" target="_blank">Website</a></button>
+                            <button class="cardBtn"><a href="https://github.com/tardyparty/trainTime" target="_blank">Gihub</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Giphy API -->
+            <div class="col-md-4 col-xs-12">
+                <div class="card">
+                    <img id="catGif" class="card-img-top" src="assets/images/giphy.gif" alt="Gif">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Giphy API</h5>
+                        <p class="card-text">Utilizing the Giphy API to dynamically create a webpage through Javascript and JQuery.</p>
+                        <div class="text-center">
+                            <button class="cardBtn"><a href="https://tardyparty.github.io/giphyAPI/" target="_blank">Website</a></button>
+                            <button class="cardBtn"><a href="https://github.com/tardyparty/giphyAPI" target="_blank">Gihub</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hangman -->
+            <div class="col-md-4 col-xs-12">
+                <div class="card">
+                    <img class="card-img-top" src="assets/images/earth.jpg" alt="Earth">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Hangman</h5>
+                        <p class="card-text">Javascript and JQuery logical came utilizing Object Oriented Programming.</p>
+                        <div class="text-center">
+                            <button class="cardBtn"><a href="https://tardyparty.github.io/hangman/" target="_blank">Website</a></button>
+                            <button class="cardBtn"><a href="https://github.com/tardyparty/hangman" target="_blank">Gihub</a></button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>  
@@ -101,17 +138,11 @@
         <div class="text-center">
             <h1 class="pageTitle">About Me</h1>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>About Me</h2>
-                    <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
-                    <ul>
-                        <li>Clickable nav links that smooth scroll to page sections</li>
-                        <li>Responsive behavior when clicking nav links perfect for a one page website</li>
-                        <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
-                        <li>Minimal custom CSS so you are free to explore your own unique design options</li>
-                    </ul>
+        <div id="aboutPage" class="text-center">
+            <div class="col-md-12 col-xs-12">
+                <img id="profileImg" src="assets/images/IMG_0713.jpg" alt="David Tardy Profile">
+                <div id="myBio">
+                    <p>I have spent the last 3 years working for a Mapping Startup called Live XYZ. After mapping the entire city of Miami by myself, I was brought onto an elite team of 8 that expanded our operations to 25 major cities and over 50 additional municipalities. </p>
                 </div>
             </div>
         </div>
