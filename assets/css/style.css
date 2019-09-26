@@ -1,6 +1,6 @@
 /* color pallet
      orange: #F2583E
-     bright blue: #c5e6eb
+     bright blue: #fafaf9
      charcoal: #2B3E42
      grey: #747E80
      cream: #F7F3E8
@@ -12,7 +12,7 @@ html {
 
 body {
     font-family: 'proxima-nova';
-    background-color: #c5e6eb;
+    background-color: #fafaf9;
 }
 
 a { 
@@ -25,11 +25,9 @@ a:hover {
     color: #747E80;
 }
 
-#mainNav {
-    background-color: #F2583E;
-}
-
 #home {
+    outline: 2px solid #F2583E;
+    outline-offset: -20px;
     min-height: 100vh;
 }
 
@@ -53,7 +51,7 @@ a:hover {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background-color: #c5e6eb;
+    background-color: #fafaf9;
 }
 
  /* Arrow & Hover Animation */
@@ -63,7 +61,7 @@ a:hover {
     height: 65px;
 }
 .more-arrows:hover polygon {
-fill: #F7F3E8;
+fill: #F2583E;
 transition: all .4s ease-out;
 }
 .more-arrows:hover polygon.arrow-bottom {
@@ -76,7 +74,7 @@ transition: all .4s ease-out;
 }
   
 polygon {
-fill: #F7F3E8;
+fill: #F2583E;
 transition: all .2s ease-out;
 }
 polygon.arrow-middle {
@@ -104,7 +102,7 @@ opacity: 0.5;
 }
 
 .spacer {
-    height: 5vh;
+    height: 3vh;
 }
 
 .pageTitle {
@@ -119,7 +117,7 @@ opacity: 0.5;
 #portfolio {
     /* margin-top: 60px; */
     min-height: 100vh;
-    background-color: #c5e6eb;
+    background-color: #fafaf9;
     color: #2B3E42;
 }
 
@@ -138,7 +136,7 @@ opacity: 0.5;
 .card {
     padding: 20px;
     border: none;
-    background-color: #c5e6eb
+    background-color: #fafaf9
 }
 
 .card-title {
@@ -149,7 +147,7 @@ opacity: 0.5;
 
 .cardBtn {
     color: #F2583E;
-    background-color: #c5e6eb;
+    background-color: #fafaf9;
     border:2px solid #F2583E;
     border-radius: 7px;
 }
@@ -176,7 +174,7 @@ opacity: 0.5;
 #myBio {
     padding: 10px;
     font-size: 16pt;
-    margin-top: 50px;
+    margin: 50px auto;
     width: 50%;
     border: 3px solid #F2583E;
     border-radius: 12px;
@@ -197,4 +195,8 @@ opacity: 0.5;
 
 #contactinfo {
     font-size: 30pt;
+}
+
+#phone {
+    display: inline;
 }
