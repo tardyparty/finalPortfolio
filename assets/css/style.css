@@ -27,8 +27,6 @@ a:hover {
 }
 
 #home {
-    outline: 2px solid #dd6b4d;
-    outline-offset: -20px;
     min-height: 100vh;
 }
 
@@ -124,7 +122,7 @@ opacity: 0.5;
 }
 
 #aboutPage {
-    min-height: 80vh;
+    min-height: 70vh;
 }
 
 #spacerPortfolio {
@@ -209,4 +207,24 @@ opacity: 0.5;
 #totop {
     margin: auto auto;
     margin-bottom: 20px;
+}
+
+#aboutSpacer {
+    height: 10vh;
+}
+
+@media screen and (max-width: 500px) {
+    .card {
+        margin-bottom: 40px;
+    }
+
+    #profileImg {
+        width: 100%;
+        margin: none;
+    }
+
+    #mybio {
+        width: 100%;
+        margin: 0 0;
+    }
 }
